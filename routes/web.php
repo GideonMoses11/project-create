@@ -21,3 +21,5 @@ Route::get('/database', 'IphoneController@database')->name('database');
 Route::get('/edit/{id}', 'IphoneController@edit')->name('edit');
 Route::put('/update/{id}','IphoneController@update')->name('update');
 Route::delete('/delete/{id}', 'IphoneController@delete')->name('delete');
+Route::store('/store', 'IphoneController@store');
+
